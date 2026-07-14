@@ -1,0 +1,1 @@
+If you write a rule that says "Decline all transactions that happen between 2:00 AM and 5:00 AM", you will successfully stop a lot of fraud. But how many honest customers with no bedtime did you accidentally insult? Find the ratio of the insulted.

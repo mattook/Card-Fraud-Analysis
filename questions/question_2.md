@@ -1,0 +1,1 @@
+At what time does fraud spike, and why might a criminal choose those specific hours to strike?

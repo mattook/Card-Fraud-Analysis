@@ -1,0 +1,1 @@
+Find where the same card is used across different countries or cities. Look at the time elapsed between those location changes. How fast is the card "traveling" and which cards are travelling faster than **add something after checking speeds**

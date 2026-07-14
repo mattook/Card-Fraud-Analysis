@@ -16,5 +16,22 @@ To set up your environment,
 
 * Load into PostgreSQL via sql/schema.sql
 
-Happy coding!
+# Solutions
+
+Here are my solutions for this project
+
+## Question 1
+
+```sql
+SELECT 
+    category,
+    SUM(is_fraud) AS fraud_count,
+    AVG(is_fraud) AS fraud_rate
+FROM 
+    uk_cards_transactions
+GROUP BY 
+    category;
+```
+
+Electronics, Luxury Retail, and Gambling have high rates of fraud, with gambling having the highest (1 in 10 transactions). This is because there are many avenues for fraud in gambling: fast cash outs with a stolen card, account hacking and fund takeover, and the actual card holder could even falsely claim their bank card was stolen after losing a lot of money.
 
